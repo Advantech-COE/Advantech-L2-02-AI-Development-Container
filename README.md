@@ -1,4 +1,4 @@
-
+![Advantech Logo](Advantech-COE/Advantech-L2-02-AI-Development-Container/data/Advantech_logo.png)
 
 # Advantech-L2-02-AI-Development-Container
 
