@@ -64,8 +64,8 @@ The Advantech EPC-7300 L2-02 AI Development Container provides a comprehensive e
 | Llama 2 | 7B (Quantized to 4-bit) | 3-4 GB | 1-2 tokens/sec in INT4/INT8 |
 | Mistral | 7B (Quantized to 4-bit) | 3-4 GB | 1-2 tokens/sec in INT4/INT8 |
 
-**DeepSeek R1 1.5B Optimizations:**
-- Supports INT8 quantization for inference
+**DeepSeek R1 1.5B Optimizations Recommendations:**
+- Supports INT4-8 quantization for inference
 - Best performance with TensorRT engine conversion
 - Typical throughput: 8-12 tokens/sec in FP16, 12-18 tokens/sec in INT8
 - Recommended batch size: 1-2 for real-time applications
