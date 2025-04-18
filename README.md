@@ -1,7 +1,5 @@
-![Advantech Logo](https://github.com/username/repo-name/blob/main/data/Advantech_Logo.png?raw=true)
-<p align="center">
-  <img src="data/Advantech_Logo.png" alt="Advantech Logo" width="700"/>
-</p>
+![Advantech Logo](data/images/Advantech_logo.png)
+
 # Advantech-L2-02-AI-Development-Container
 
 **Version:** 2.0  
