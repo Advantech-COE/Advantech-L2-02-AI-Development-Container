@@ -6,7 +6,7 @@ version: '2.4'
 # Copyright (c) 2025 Advantech Corporation. All rights reserved.
 services:
   advantech-l2-02:
-    image: darkratio/advantech_coe_l2-02:v1.2
+    image: harbor.arfa.wise-paas.com/advantech-coe-l2-02/advantech_coe_l2-02@sha256:b67dd25bfd0a44fcbbdb6f683045cc08a975c4346db90141efa8af306afeeeb3
     container_name: advantech-l2-02
     privileged: true
     network_mode: host
@@ -19,7 +19,7 @@ services:
       maintainer: "Samir Singh <samir.singh@advantech.com>"
       vendor: "Advantech"
       version: "1.2"
-      description: "Advantech EPC-7300 L2-02 AI development Container with hardware acceleration"
+      description: "Advantech L2-02 AI development Container with hardware acceleration"
     environment:
       - DISPLAY=${DISPLAY}
       - NVIDIA_VISIBLE_DEVICES=all
