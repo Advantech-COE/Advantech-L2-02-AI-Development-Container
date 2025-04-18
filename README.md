@@ -1,4 +1,4 @@
-![Advantech Logo]([data/Advantech_logo.png])
+![Advantech Logo](./data/Advantech_Logo.png)
 <p align="center">
   <img src="data/Advantech_Logo.png" alt="Advantech Logo" width="700"/>
 </p>
