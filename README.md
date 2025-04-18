@@ -1,4 +1,4 @@
-![Advantech Logo](./data/Advantech_Logo.png)
+![Advantech Logo](https://github.com/username/repo-name/blob/main/data/Advantech_Logo.png?raw=true)
 <p align="center">
   <img src="data/Advantech_Logo.png" alt="Advantech Logo" width="700"/>
 </p>
