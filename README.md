@@ -1,4 +1,4 @@
-![Advantech Logo](Advantech-COE/Advantech-L2-02-AI-Development-Container/data/Advantech_logo.png)
+![Advantech Logo]([Advantech-COE/Advantech-L2-02-AI-Development-Container/data/Advantech_logo.png](https://github.com/Advantech-COE/Advantech-L2-02-AI-Development-Container/raw/main/data/Advantech_logo.png))
 <p align="center">
   <img src="data/Advantech_Logo.png" alt=" Advantech-L2-02-AI-Development-Container" width="700"/>
 </p>
