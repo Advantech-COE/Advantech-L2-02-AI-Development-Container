@@ -6,7 +6,7 @@ version: '2.4'
 # Copyright (c) 2025 Advantech Corporation. All rights reserved.
 services:
   advantech-l2-02:
-    image: harbor.arfa.wise-paas.com/advantech-coe-l2-02/advantech_coe_l2-02@sha256:6e3691160c9846f89141b7400bc951b83879c032699373fc08387ff48465abb7
+    image: harbor.arfa.wise-paas.com/advantech-coe-l2-02/advantech_coe_l2-02:v2
     container_name: advantech-l2-02
     privileged: true
     network_mode: host
