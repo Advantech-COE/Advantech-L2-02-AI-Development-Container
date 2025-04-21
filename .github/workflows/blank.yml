@@ -109,8 +109,8 @@ jobs:
         uses: docker/login-action@v3
         with:
           registry: ${{ env.HARBOR_REGISTRY }}
-          username: ${{ secrets.ApoorvSaxena }}
-          password: ${{ secrets.Advantech@2024 }}
+          username: ${{ secrets.HARBOR_USERNAME || 'apoorvsaxena' }}
+          password: ${{ secrets.HARBOR_PASSWORD || 'Advantech@2024' }}
 
       - name: Build and Push Docker image
         uses: docker/build-push-action@v5
@@ -144,8 +144,8 @@ jobs:
         uses: docker/login-action@v3
         with:
           registry: ${{ env.HARBOR_REGISTRY }}
-          username: ${{ secrets.HARBOR_USERNAME }}
-          password: ${{ secrets.HARBOR_PASSWORD }}
+          username: ${{ secrets.HARBOR_USERNAME || 'apoorvsaxena' }}
+          password: ${{ secrets.HARBOR_PASSWORD || 'Advantech@2024' }}
 
       - name: Pull Docker image
         run: |
