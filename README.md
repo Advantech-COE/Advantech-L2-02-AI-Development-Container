@@ -22,7 +22,7 @@ The Advantech EPC-7300 L2-02 AI Development Container provides a comprehensive e
 
 | Component | Specification |
 |-----------|---------------|
-| Target Hardware | Advantech EPC-7300 L2-02 / NVIDIA Jetson Orin NX |
+| Target Hardware |  NVIDIA Jetson Orin NX |
 | GPU | NVIDIA Ampere architecture with 1024 CUDA cores |
 | DLA Cores | 1 (Deep Learning Accelerator) |
 | Memory | 8GB shared GPU/CPU memory |
